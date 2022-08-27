@@ -1,11 +1,12 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class Frame extends JFrame {
+public class MainFrame extends JFrame {
     private String fileName;
     private String appName;
 
-    public Frame(JMenuBar jMenuBar, JScrollPane jScrollPane) {
+    public MainFrame(JMenuBar jMenuBar, JScrollPane jScrollPane) {
+        super();
         this.appName = "Text Editor";
         this.fileName = "untitled.txt";
         int width = 640;
